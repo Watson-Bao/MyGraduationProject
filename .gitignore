@@ -1,0 +1,12 @@
+notebooks/.ipynb_checkpoints/
+cluster/.ipynb_checkpoints/
+
+/GPSML
+/.idea
+/processed_data
+
+*.pyc
+*.tar.gz
+*.png
+*.zip
+
