@@ -10,7 +10,6 @@ import pandas as pd
 from matplotlib import colors
 from matplotlib import gridspec
 from sklearn.decomposition import PCA
-from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
