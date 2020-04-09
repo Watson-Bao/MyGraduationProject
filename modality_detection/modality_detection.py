@@ -28,7 +28,7 @@ rootPath = os.path.abspath(os.path.join(os.getcwd(),".."))
 sys.path.append(rootPath)
 from knn import ADVKNN
 
-# sync test second
+# sync test 3
 # The column containing the labels is not exactly in the clean format we want to have it in.
 # Some labels have commas at the begin, end and double commas in the middle,
 # so lets make a function which cleans these labels.
