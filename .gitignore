@@ -3,7 +3,6 @@ cluster/.ipynb_checkpoints/
 
 /GPSML
 /.idea
-/processed_data
 /.vscode
 *.pyc
 *.tar.gz
