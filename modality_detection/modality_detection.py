@@ -102,7 +102,7 @@ def plot_classification_report_and_confusion_matrix(cr, cm, title=None, cmap_cr=
     res = ax_2.imshow(norm_conf_arr, cmap=cmap_cm,
                       interpolation='nearest')
 
-    width, height = norm_conf_arr.shape
+    height, width = norm_conf_arr.shape
 
     for x in range(width):
         for y in range(height):
