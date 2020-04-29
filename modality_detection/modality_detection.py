@@ -69,7 +69,6 @@ def plot_classification_report_and_confusion_matrix(cr, cm, title=None, cmap_cr=
 
     for column in range(len(matrix[0])):
         for row in range(len(classes_cr)):
-            txt = matrix[row][column]
             ax_1.text(column, row, matrix[row]
                       [column], va='center', ha='center')
         im1 = ax_1.imshow(matrix, interpolation='nearest', cmap=cmap_cr)
