@@ -213,7 +213,7 @@ def model_compare(cmp_result):
     metric = ('precision', 'recall', 'f1')  # 评估标准
     models = ('Random Forest', 'Logistic Regression', 'SVM', 'kNN')  # 科目
 
-    # 设置柱形图宽度
+    # 设置柱形图的宽度
     bar_width = 0.26
 
     index = np.arange(len(models))
